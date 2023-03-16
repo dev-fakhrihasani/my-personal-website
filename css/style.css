@@ -2,6 +2,36 @@
     background-color: #EB455F;
 } */
 
+.top-pages {
+    background-image: url('../img/bg-main.png');
+    background-size: cover;
+}
+
 img {
     width: 400px;
+}
+
+.laravel.btn {
+    background-color: #fb503b;
+}
+
+.php-btn {
+    border-color: #8993be;
+    background-color: #8993be;
+    color: white;
+}
+
+.php-btn:hover {
+    background-color: #6a7294;
+    color: white;
+}
+
+.python-btn {
+    background-color: #4584B6;
+    color: white;
+}
+
+.python-btn:hover {
+    background-color: #376891;
+    color: white;
 }
