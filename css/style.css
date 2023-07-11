@@ -3,35 +3,41 @@
 } */
 
 .top-pages {
-    background-image: url('../img/bg-main.png');
-    background-size: cover;
+  /* background-image: url('../img/bg-main.png'); */
+  background-image: linear-gradient(#f87f6f, white);
+  background-size: cover;
+  height: 100vh;
 }
 
 img {
-    width: 400px;
+  width: 400px;
 }
 
 .laravel.btn {
-    background-color: #fb503b;
+  background-color: #fb503b;
+}
+
+.laravel.btn:hover {
+  background-color: #f88a7c;
 }
 
 .php-btn {
-    border-color: #8993be;
-    background-color: #8993be;
-    color: white;
+  border-color: #8993be;
+  background-color: #8993be;
+  color: white;
 }
 
 .php-btn:hover {
-    background-color: #6a7294;
-    color: white;
+  background-color: #6a7294;
+  color: white;
 }
 
 .python-btn {
-    background-color: #4584B6;
-    color: white;
+  background-color: #4584B6;
+  color: white;
 }
 
 .python-btn:hover {
-    background-color: #376891;
-    color: white;
+  background-color: #376891;
+  color: white;
 }
